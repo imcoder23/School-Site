@@ -1,0 +1,1180 @@
+/*
+*{
+	border:1px solid rgba(0,0,0,0.3);
+}
+*/
+body{
+	background:#fff url(../imagess/background.gif) repeat-x center 187px;
+	color:#585858;
+	font-family:Arial;
+	font-size:14px;
+	margin:0;
+	min-width:960px;
+}
+
+***************************************************************
+
+
+*******************************************************************
+
+
+
+
+
+
+********************************************************************************
+#nav 
+{
+	
+	font-family: 'Arvo', serif;
+		
+	height: 50px;
+		
+	line-height: 50px;
+		
+	position: absolute;
+		
+	bottom: 20px;
+		
+	right: 20px;
+			z-index: 99;
+	
+}
+
+	
+
+#nav a 
+{
+		
+	color: #fff;
+		
+	text-decoration: none;
+			text-transform: lowercase;
+	
+}
+
+	
+
+#nav .current a 
+{
+		
+	color: #fff;
+
+	
+}
+
+	
+
+#nav ul {
+
+	list-style: none;
+		
+	padding: 0;
+		
+	margin: 0;
+	
+}
+
+	
+
+#nav ul li 
+{
+		
+	display: block;
+		
+	float: left;
+		
+	padding: 0 8px 0 8px;
+	
+}
+
+		
+#nav #dropmenu 
+{
+			
+	position: relative;
+		
+}
+
+		
+
+#nav #dropmenu li 
+{
+			
+	position: relative;
+		
+}	
+
+			
+
+.dropotron li.opener
+
+{
+				
+	border-right: solid 2px #FFFFFF;;
+	}
+
+			
+
+.dropotron
+			
+{
+					width: 215px;
+				
+	padding: 10px;
+				
+	background: #9ACD32;
+		color: #9ACD32;
+				
+	list-style: none;
+			}
+
+			
+
+.dropotron a
+
+{
+				
+	color: #fff;
+		text-decoration: none;
+			
+}
+
+			
+
+.dropotron li
+	{
+				
+	padding: 5px 10px 5px 10px;
+					margin: 5px 0 5px 0;
+			
+}
+			
+			
+.dropotron li:hover, .dropotron li.active
+			
+{
+				
+	background: #bc1906;
+	}
+********************************************************************************
+
+a{
+	outline:none;
+}
+img{
+	border:none;
+}
+
+
+
+#header div#section:after, #header ul:after, #content div:after, #content div ul.services:after, #footer div:after, #footer div div.section ul:after{
+	clear:both;
+	content:" ";
+	display:block;
+	font-size:0;
+	height:0;
+	visibility:hidden;
+}
+#page{
+	background:url(../imagess/background.jpg) no-repeat center 180px;
+	width:100%;
+}
+#header{
+	background:url(../imagess/bg-header.gif) repeat-x;
+	height:auto;
+	overflow:hidden;
+	position:relative;
+}
+
+
+#title div#logo
+{
+width: 96px;
+height: 137px;
+float: left;
+background: url('../imagess/mono.gif')no-repeat center transparent;
+padding-left: 340px;
+}
+
+#title div#name{
+width: 1145px;
+height: 137px;
+float: left;
+background: url('../imagess/title.png') no-repeat center transparent;
+}
+#name div#logo{
+}
+
+
+
+#header div#section{
+	height:145px;
+	margin:0 auto;
+	
+	width: 1318px;
+}
+#header div#section div{
+	
+	
+}
+
+
+
+
+
+
+#header div#section div#title{
+
+    height: 142px;
+    width: 941px;
+}
+
+}
+#header div#section div a{
+	display:block;
+}
+
+#header div#section span{
+	color: #ACBCC9;
+	float: right;
+	margin: 0px;
+	padding-top: 45px;
+	text-align: right;
+	width: 178px;
+}
+
+
+#news div#recent{
+	
+	
+	height: 22px;
+	width: 960px;
+	margin: 0px auto;
+
+}
+
+
+#header ul{
+	list-style:none;
+	margin:2px auto 0;
+	padding:0;
+	
+	width: 960px;
+	}
+#header ul li{
+	float:left;
+	padding-right:5px;
+}
+#header ul li a{
+	color:#28475C;
+	display:block;
+	font-size:14px;
+	height:43px;
+	line-height:37px;
+	padding:0 23px;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:1px 1px 0 #94C81D;
+	text-transform:capitalize;
+}
+#header ul li.current, #header ul li:hover{
+	height:43px;
+}
+#header ul li.current a{
+	background:url(../imagess/bg-menu.gif) repeat-x;
+	color:#2a495e;
+	font-weight:bold;
+	text-shadow:1px 1px 0 #a8d32c;
+}
+#header ul li a:hover{
+	background:url(../imagess/bg-menu.gif) repeat-x;
+}
+
+#header div#tagline
+{
+background: none no-repeat scroll center -20px transparent;
+margin-top: 10px;
+}
+
+#rightDiv div#calender
+	{
+		
+		height: 700px;
+		padding-top: 15px;
+		width: 646px;
+	}
+#rightDiv div#slidertron
+	{
+	float:left;
+	position: relative;
+	padding: 0px;
+	background: none no-repeat scroll center;
+	width: 600px;
+	margin: 0px auto;
+	border: 10px solid #808080;
+	height:368px;
+	left: 10px;
+	}
+	
+#rightDiv div#slidertron .navigation
+
+{
+	
+	position: absolute;
+	
+	display: block;
+	
+	z-index: 100;
+	
+	color: #ffffff;
+	
+	top: 315px;
+	
+	right: 0px;
+	
+	margin: 10px;
+	
+	padding: 10px;
+		background-color: #303030;
+	
+	opacity: 0.75;
+
+}
+
+#rightDiv div#slidertron .navigation a
+
+{
+	
+	color: #ffffff;
+	
+	text-decoration: none;
+	
+	outline: none;
+
+}
+
+#rightDiv div#slidertron .viewer
+
+{
+	
+	width: 600px;
+	
+	height: 324px;
+
+}
+
+#rightDiv div#slidertron .viewer .reel .slide span
+
+{
+	
+	position: absolute;
+	display: block;
+	width: 940px;
+	opacity: 0.9;
+	background: url('../imagess/bga.png') repeat scroll 0% 0% transparent;
+	color: #FFF;
+	bottom: 21px;
+	left: 0px;
+	height: 55px;
+
+}
+
+#rightDiv div#slidertron .indicator
+
+{
+	
+	margin: 0px;
+	width: 600px;
+	text-align: center;
+	background: none repeat scroll 0% 0% #8B4513;
+	    height: 30px;
+
+}
+
+
+
+#rightDiv div#slidertron .indicator ul
+
+{
+	
+	list-style: none;
+	
+	padding-top: 12px;
+}
+
+	
+
+#rightDiv div#slidertron .indicator ul li
+	
+{
+		
+	display: inline-block;
+		
+	background: #d0d0d0;
+		
+	color: #303030;
+		width: 10px;
+		
+	height: 10px;
+		
+	margin: 0 10px 0 0;
+		
+	text-indent: -9999px;
+		
+	border-radius: 10px;
+	
+}
+
+	
+
+#rightDiv div#slidertron .indicator ul li.active
+	
+{
+			
+	background: #9ec64e;
+		
+	color: #d0d0d0;
+	
+}	
+	
+	
+*****************************************************************************************************
+
+#header div#tagline div h4{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:50px;
+	font-weight:bold;
+	line-height:70px;
+	margin:0;
+	padding-top:100px;
+	text-shadow:0 1px 0 #FFFFFF;
+	width:450px;
+}
+#header div#tagline div p{
+	font-size:24px;
+	line-height:35px;
+	margin:0;
+	padding-top:20px;
+	text-shadow:0 1px 1px #FFFFFF;
+	width:340px;
+}
+
+#indexcontent{
+	margin:0 auto;
+	height: 745px;
+	overflow:hidden;
+	position:relative;
+	width: 100%;
+
+}
+
+#leftDiv {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	
+	width:50%;
+    height:745px;
+    
+}
+#rightDiv {
+   position: absolute;
+   top: 5px;
+   right: 5px;
+
+	width:48%;
+
+}
+
+#rightDiv div#fixer{
+
+}
+#indexcontent div#rightDiv div#calender h3 {
+    color: #C80708;
+    display: block;
+    text-decoration: none;
+}
+#indexcontent div#rightDiv div#calender h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#indexcontent div#rightDiv div#calender h3 center{
+}
+
+#info{
+width: 487px;
+border: solid red;
+margin: 0px auto;
+}
+
+#calender img {
+    border: 1px solid #C80708;
+    float: left;
+    margin-right: 15px;
+    margin-top: 8px;
+    padding: 9px;
+}
+#calender p {
+    line-height: 25px;
+    margin: 0px;
+    padding-bottom: 0px;
+    text-align: justify;
+	padding-top: 15px;
+	}
+
+
+
+#leftDiv div#center{
+
+height: 700px;
+position: relative;
+width: 760px;
+left: 5px;
+float: right;
+background: url('../imagess/new.png') repeat;
+}
+
+#indexcontent div#leftDiv div#center div#aside div h1 span.last{
+    color: #C80708;
+    padding: 0px;
+    font-weight: bold;
+}
+
+#indexcontent div#leftDiv div#center div#aside h2 span.last{
+    color: #C80708;
+    padding: 0px;
+    font-weight: bold;
+}
+
+#indexcontent div#leftDiv div#center div#aside div p {
+    line-height: 25px;
+    margin: 0px;
+    padding-bottom: 0px;
+    text-align: justify;
+}
+#indexcontent div#leftDiv div#center div#aside div p {
+    padding-top: 0px;
+	width: 640px;
+}
+
+
+#indexcontent div#leftDiv div#center div {
+    margin-bottom: 40px;
+    float: none;
+    margin-left: 0px;
+    margin-top: 0px;
+    min-height: 0px;
+    padding: 0px;
+    width: 659px;
+}
+#indexcontent div#leftDiv div#center div#aside{
+    min-height: 700px;
+    float: right;
+}
+
+#indexcontent div#leftDiv div#center div#aside ul li h2 a, #content div h2 {
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+#indexcontent div#leftDiv div#center div#aside div ul li h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    text-transform: none;
+}
+#indexcontent div#leftDiv div#center div#aside div ul li h2 a{
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+
+a {
+    outline: medium none;
+	
+	}
+
+
+#indexcontent div#center h1 span.last, #indexcontent div#center h2 span.last {
+    color: #C80708;
+    padding: 0px;
+    font-weight: bold;
+	}
+	
+#indexcontent div#center img{
+    border: 1px solid #C80708;
+    float: left;
+    margin-right: 15px;
+    margin-top: 8px;
+    padding: 9px;	
+
+}
+#indexcontent div#leftDiv div#center ul {
+    list-style: none outside none !important;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+}
+#indexcontent div#center ul {
+    margin: 0px;
+
+}
+#indexcontent div#leftDiv div#center ul li {
+    border: medium none;
+    float: left;
+    margin-right: 0px;
+    padding-bottom: 0px;
+    padding-right: 25px;
+    padding-top: 0px;
+    width: 295px;
+
+}
+
+#indexcontent div#leftDiv div#center div#aside ul li p 
+{
+    line-height: 25px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    text-align: justify;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+#content{
+	
+	margin:0 auto;
+	min-height:174px;
+	overflow:hidden;
+	position:relative;
+	width: 100%;
+
+}
+#content div#home{
+	margin: 0px auto;
+min-height: 174px;
+overflow: hidden;
+padding: 0px;
+position: relative;
+width: 939px;
+background: none no-repeat scroll center top transparent;
+border: solid brown 9px;
+}
+#content p a{
+	color:#F00;
+	text-decoration:underline;
+}
+h4 a, div#aside p span a{
+	color:#375675;
+	text-decoration:underline;
+}
+#content div{
+	background:#fff;
+	margin:10px auto 20px;
+	padding:30px;
+	width:880px;
+}
+#content div div{
+	margin:0;
+	padding:0 0 30px;
+	width:auto;
+}
+#content div div.first{
+ *height:200px;
+}
+#content div div.first div#photo{
+ width: 220px;
+float: left;
+height: 198px;
+}
+
+#content div div.first div#photo center h3{
+ color: red;
+font-size: 20px;
+}
+#content div div h2{
+	color:#375675;
+	font-weight:bold;
+	padding-top: 5px;
+}
+#content div#home div{
+	background:none;
+	margin:10px auto 20px;
+	padding:30px;
+	width:880px;
+}
+#content div ul.section{
+	color:#375675;
+	font-size:14px;
+	font-weight:bold;
+	list-style:disc;
+	margin:10px 0 10px 20px;
+}
+#content div ul.section li{
+	float:none;
+	padding-bottom:0;
+	width:auto;
+}
+#content div ul.section li span{
+	color:#375675;
+	text-transform:uppercase;
+}
+#content div ul.section li p{
+	color:#585858;
+	font-weight:normal;
+	line-height:25px;
+	margin-left:-12px;
+	padding-bottom:15px;
+	padding-top:10px;
+}
+#content div p span.first{
+	color:#375675;
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	padding-bottom:10px;
+	text-transform:uppercase;
+}
+#content div#home div div#aside, #content div#home div div#calendar{
+	min-height:300px;
+	margin:0;
+	padding:0;
+}
+#content div#home div div#aside{
+	float:left;
+	padding:0;
+	width:570px;
+}
+#content div div.section div#aside{
+	float:left;
+	margin:0;
+	padding:0;
+	width:560px;
+}
+#content div#home div div#aside ul{
+	list-style:none !important;
+	padding-left:0 !important;
+	padding-top:0 !important;
+}
+#content div#home div div#aside div{
+	margin-bottom:40px;
+	float:none;
+	margin-left:0;
+	margin-top:0;
+	min-height:0;
+	padding:0;
+	width:550px;
+}
+#content div div ul{
+	margin:0;
+}
+#content div h5{
+	color:#375675;
+	font-size:14px;
+	font-weight:bold;
+	margin:30px 0 5px;
+}
+#content div#home div div#aside div h1, #content div h1{
+	color:#3f3f3f;
+	font-size:28px;
+	font-weight:normal;
+	margin:0;
+	padding-bottom:27px;
+}
+#content div h3{
+	color:#c80708;
+	font-size:28px;
+	font-weight:bold;
+	margin:0;
+	padding-bottom:27px;
+}
+#content div#home div div#aside h2 span.last, #content div h1 span.last, #content div h2 span.last{
+	color:#c80708;
+	padding:0;
+	font-weight:bold;
+}
+#content div#home div div#aside div img, #content div img{
+	border:1px solid #C80708;
+	float:left;
+	margin-right:15px;
+	margin-top:8px;
+	padding:9px;
+}
+#content div img{
+	margin-right:25px;
+}
+#content div#home div div#aside div p{
+	padding-top:12px;
+}
+#content div#home div div#aside div p, #content div p{
+	line-height:25px;
+	margin:0;
+	padding-bottom:0;
+	text-align:justify;
+}
+#content div#home div div#aside ul li{
+	border:none;
+	float:left;
+	margin-right:0;
+	padding-bottom:0;
+	padding-right:25px;
+	padding-top:0;
+	width:260px;
+}
+#content div#home div div#aside ul li:first-child{
+	padding-left:0;
+}
+#content div#home div div#aside ul li h2{
+	font-size:20px;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	text-transform:none;
+}
+#content div h2{
+	font-size:15px;
+	font-weight:normal;
+	margin:0;
+	padding-bottom:15px;
+	padding-top:40px;
+	text-transform:uppercase;
+}
+#content div h4{
+	color:#375675;
+	font-size:14px;
+	font-weight:bold;
+	line-height:25px;
+	margin:0;
+	padding-top:20px;
+}
+#content div ul.services{
+	list-style:disc;
+	margin:10px 0 0 19px;
+	padding:0;
+ *padding-bottom:20px;
+}
+#content div ul.services li{
+	float:left;
+	line-height:25px;
+	margin-right:57px;
+	width:230px;
+}
+#content div div.section{
+	float:none;
+	margin:20px 0 0;
+	padding:0;
+	width:auto;
+}
+
+#content div div#calendar{
+
+}
+#calendar div#left{
+float: left;
+
+width: 50%;
+}
+#calendar div#left h{
+font-size: 18px;
+color: green;
+font-weight: bold;
+}
+
+#calendar div#left d{
+font-size: 15px;
+color: black;
+font-weight: bold;
+}
+
+#calendar div#right rh{
+font-size: 18px;
+color: green;
+font-weight: bold;
+}
+#calendar div#right{
+
+float: right;
+width: 48%;
+}
+
+#content div div.calendar{
+	float:none;
+	margin-top:-20px;
+ *margin-top:-30px;
+	padding:0 20px;
+	width:auto;
+}
+#content div div.calendar dl{
+	float:left;
+	width:278px;
+}
+#content div div.calendar dl dt{
+	color:#375675;
+	font-size:18px;
+	font-weight:bold;
+	padding-bottom:5px;
+	padding-top:20px;
+ *padding-top:45px;
+}
+
+#content div div.calendar dl dt1{
+
+font-size:15px;
+font-weight:bold;
+
+}
+#content div div.calendar dl dd{
+	line-height:25px;
+	margin:0;
+	padding:0;
+}
+#content div div.section div h4{
+	padding-top:0;
+	width:400px;
+}
+#content div div.section div h5, #content div div.section div h6{
+	color:#375675;
+	font-weight:bold;
+	line-height:25px;
+	margin:0;
+	padding:15px 0;
+	text-transform:uppercase;
+}
+#content div div.section div h6{
+	margin:0;
+	padding:0;
+	font-size:18px;
+	text-indent:20px;
+}
+#content div div.section div h5 span{
+	color:#3F3F3F;
+	font-weight:normal;
+}
+#content div div.section div#sidebar ul.links{
+	list-style:disc;
+	margin:10px 0 0 20px;
+	padding-top:0;
+	padding-left:15px;
+	width:auto;
+}
+#content div div.section div#sidebar ul.blog li{
+	line-height:15px;
+	border:none;
+	float:left;
+	height:auto;
+	padding:0;
+	width:auto;
+}
+#content div div.section div#sidebar ul.blog li div h2{
+	font-size:14px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+#content div div.section div#sidebar ul.blog li div h2 a{
+	line-height:19px;
+	text-transform:uppercase;
+	color:#375675;
+	text-align:left;
+	text-decoration:none;
+}
+#content div div.section div#sidebar ul.blog li div{
+	margin:0;
+	padding:0;
+	width:auto;
+}
+#content div div.section div#sidebar ul.blog li p{
+	padding:15px 0;
+}
+#content div div.section div#sidebar ul.links li{
+	border:none;
+	float:none;
+	height:auto;
+	line-height:33px;
+	padding:0;
+	width:auto;
+}
+#content div#home div div#aside ul li h2 a, #content div h2{
+	color:#3f3f3f;
+	text-decoration:none;
+}
+#content div#home div div#aside ul li p{
+	line-height:25px;
+	padding-top:20px !important;
+	padding-bottom:0 !important;
+	text-align:justify;
+	margin-top:0;
+}
+#content div#home div div#calendar{
+	float:left;
+	margin-left:5px;
+	padding:0;
+	width:305px;
+}
+#content div div.section div#sidebar{
+	float:left;
+	margin-left:30px;
+	margin-top:0;
+	padding:0;
+	width:290px;
+}
+#content div div.section div#sidebar ul.blog{
+	float:left;
+	list-style:none;
+	margin-top:0;
+	padding:5px 0 0;
+	width:290px;
+}
+#content div#home div div#calendar h3{
+	font-size:28px;
+	font-weight:bold;
+	margin:0;
+}
+#content div#home div div#calendar h3{
+	color:#c80708;
+	display:block;
+	text-decoration:none;
+}
+#content div#home div div#calendar ul{
+	list-style:none;
+	padding-left:0;
+	padding-top:8px;
+}
+#content div#home div div#calendar ul li{
+	margin-right:0;
+	padding-bottom: 150px;
+	width:auto;
+}
+#content div#home div div#calendar ul li div{
+	height:43px;
+	margin-bottom:0 !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	min-height:0 !important;
+	padding:0;
+	width:270px !important;
+}
+#content div#home div div#calendar ul li div span, #content div div.section div#sidebar ul li div span{
+	background:#274e75;
+	color:#FEFEFF;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	margin-right:5px;
+	padding:3px 5px;
+	text-align:right;
+}
+#content div#home div div#calendar ul li div h2{
+	font-size:18px;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+}
+#content div#home div div#calendar ul li div h2 a{
+	color:#375675;
+	display:block;
+	line-height:19px;
+	text-align:left;
+	text-decoration:none;
+	text-transform:none;
+}
+#content div#home div div#calendar ul li p{
+	border-bottom:1px solid #c2c2c2;
+	color:#5E5E5E;
+	line-height:25px;
+	padding:15px 0;
+	text-align:justify;
+}
+#content div h3 div{
+	border:1px dashed red;
+	float:left;
+}
+
+
+
+
+
+#counter_172848 {
+    font-family: "Verdana";
+    font-size: 11px;
+    clear: left;
+	}
+
+
+
+
+
+#footer{
+	background:#274F75 url(../imagess/bg-footer.gif) repeat-x;
+	min-height:113px;
+	width:100%;
+}
+#footer div{
+	font-size:12px;
+	margin:0 auto;
+	padding-top:37px;
+	position:relative;
+	width:960px;
+}
+#footer div div#connect{
+	float:left;
+	padding:0;
+	width:250px;
+}
+#footer div div#connect a{
+	display:inline-block;
+	padding-right:10px;
+}
+#footer div div.section{
+	float:right;
+	padding:0;
+	width:700px;
+}
+#footer div div.section ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:0;
+	top:0;
+}
+#footer div div.section ul li{
+	border-left:1px solid #6886a0;
+	float:left;
+	padding:0 5px;
+}
+#footer div div.section ul li.last{
+	border-right:0;
+}
+#footer div div.section ul li:first-child{
+	border:none;
+}
+#footer a{
+	color:#6886A0;
+	text-decoration:none;
+}
+#footer div div.section ul li a{
+	display:block;
+	height:12px;
+	line-height:10px;
+}
+#footer a:hover{
+	color:#fff;
+}
+#footer div div.section p{
+	color:#6886A0;
+	margin:0;
+	padding:20px 3px 0;
+	text-align:right;
+}
+#header div#home
+{
+}
